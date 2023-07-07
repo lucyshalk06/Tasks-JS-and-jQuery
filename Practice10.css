@@ -1,0 +1,65 @@
+/* Navigaion Bar - Header Section */
+button .navbar-toggler{
+    background-color: brown;
+}
+nav a{
+    font-size: 22px;
+}
+.nav-item  a:hover{
+    font-size: 24px;
+    color: black;
+    background-color: beige;
+}  
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+/* =====================
+        Contetn Area
+======================== */
+  .container {
+    margin-top: 80px;
+  }
+  .card-container{
+    box-shadow: -1px 8px 15px 0px rgb(204, 204, 204);
+  }
+  
+  i{
+    /* background-color: rgb(44, 115, 246); */
+    height: 50px; width: 50px; color: #ffffff; 
+    margin-top: 50px;
+  }
+  h3{ color: #ffffff; margin-top: 0; font-size: 30px;}
+  table tr th, td{
+    font-size: 20px;
+  }
+  th {
+    height: 30px;
+    text-align: center;
+    font-weight: 700;
+    background-color: #000000 !important;
+    color: #ffffff;
+  }
+  
+  td {
+    height: 100px;
+  }
+  td:hover{
+    background-color: rgb(244, 102, 237);
+    color: #ffffff;
+  }
+  .today {
+    background-color: gray !important;
+  }
+  
+  th:nth-of-type(7),
+  td:nth-of-type(7) {
+    font-weight: bold;
+  }
+  
+  th:nth-of-type(1),
+  td:nth-of-type(1) {
+    font-weight: bold;
+  }
